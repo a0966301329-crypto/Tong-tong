@@ -56,6 +56,8 @@ button:active{transform:translateY(4px);box-shadow:0 3px 0 #55a9cf}
 </section>
 
 <section id="battle" class="screen">
+ 
+ <button onclick="playing=false;show('home');updateCoins()" style="position:absolute;top:70px;left:20px;width:auto;margin:0;padding:10px 16px;z-index:20;">← 首頁</button>
 <div id="hud"><span>❤️ <span id="hp">100</span></span><span>波數 <span id="wave">1</span></span><span>🪙 <span id="battleCoins">0</span></span></div>
 <div id="arena"><div id="player"><div class="tail l"></div><div class="tail r"></div><div class="ear"></div><div class="ear r"></div><div class="head"></div><div class="eye l"></div><div class="eye r"></div></div></div>
 <div id="joy"><div id="stick"></div></div><button id="attack">⚔️</button>
